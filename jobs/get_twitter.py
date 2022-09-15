@@ -11,11 +11,11 @@ import sqlalchemy
 #https://datazenit.com/heroku-data-explorer.html
 #Connect with Postgres
 def connect_toPostgres(schema):
-  username = 'mthnlktoxoaobc'
-  password = '7d9feab94a8dc2622c655abd81b11c678806ea764e898ed7f11c59fb88e3c93b'
-  host = 'ec2-35-168-122-84.compute-1.amazonaws.com'
-  port = '5432'
-  dbname = 'd1fsodgvbpvkk6'
+  username = '<HIDE>'
+  password = '<HIDE>'
+  host = '<HIDE>'
+  port = '<HIDE>'
+  dbname = '<HIDE>'
   engine = create_engine(f'postgresql://{username}:{password}@{host}:{port}/{dbname}')
 
   print('Connected to Postgres.')
