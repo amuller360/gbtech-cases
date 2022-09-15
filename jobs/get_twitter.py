@@ -38,7 +38,7 @@ def get_keywords(engine):
 #https://github.com/twitterdev/getting-started-with-the-twitter-api-v2-for-academic-research/blob/main/modules/5-how-to-write-search-queries.md
 #Get Tweets and Return DF with them
 def get_tweets(keywords):
-  bearer_token = 'AAAAAAAAAAAAAAAAAAAAAOJfhAEAAAAAkxTvxasbxJ7EJJkj7f918wONZ%2B8%3Dn5uipPklYM4JdYHaMNw3acTKU9Nme1AqAy4HgJFRA2jg4SOIdf'
+  bearer_token = '<HIDE>'
   client = tweepy.Client(bearer_token=bearer_token)
 
   query = f'{keywords} lang:pt'
