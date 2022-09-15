@@ -15,4 +15,4 @@ DAG com objetivo de calcular o consolidado de venda de acordo com agregações e
 ## DAG Twitter Trends
 `twitter_trends.py`
 `jobs\get_twitter.py`
-DAG com objetivo de coletar informações no twitter relacionadas ao levantamento relizado na DAG consolidado.
+DAG com objetivo de coletar informações no twitter relacionadas ao levantamento realizado  na DAG consolidado.
